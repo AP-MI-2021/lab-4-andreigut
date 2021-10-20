@@ -225,6 +225,10 @@ def test_replace_positives_with_biggest_common_factor_and_negatives_with_mirror(
 
 
 def read_input_elements():
+    '''
+    Read a list of elements from the prompt.
+    :return: List of the elements read from the prompt.
+    '''
     elements = []
     no_elements = int(input('Number of elements='))
     for index in range(0, no_elements):
